@@ -1,0 +1,65 @@
+#ten-countdown{
+    display:block;
+    margin: 0 auto;
+    color: #00ce7c;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1em;
+    text-decoration: none;
+}
+.timer-wrapper{
+	padding: 45px 10px 0px 10px;
+	display: inline-block;
+  width: 320px;
+  height: 115px;
+  margin-top: -20px;
+  background-image: url(../images/ticker_bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;  
+  animation : pulse 3s infinite;
+}
+.timer-wrapper p{
+  padding: 0;
+  margin: 0;
+}
+@keyframes pulse {
+    from {
+        transform : scale(1);
+        transform: rotate(0deg);
+    }
+    50% {
+        transform : scale(0.75);
+        transform: rotate(5deg);
+    }
+    to {
+        transform : scale(1);
+        transform: rotate(0deg);
+    }
+}
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
+
+@media screen and (max-width:800px){
+    .timer-wrapper{
+      zoom: 90%;
+    }
+}
+
+@media screen and (min-width:992px){
+.timer-wrapper{
+  position: absolute;
+  top: -45px;
+  right: 0;
+  margin-top: 0;
+}
+}
+
+@media screen and (max-width:991px){
+
+}

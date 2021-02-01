@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".customer-logos").slick({slidesToShow:5,slidesToScroll:1,autoplay:!0,autoplaySpeed:1500,arrows:!1,dots:!1,pauseOnHover:!1,responsive:[{breakpoint:768,settings:{slidesToShow:4}},{breakpoint:520,settings:{slidesToShow:2}}]})});

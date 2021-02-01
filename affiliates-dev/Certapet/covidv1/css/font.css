@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Beauty';
+  src: url('../fonts/Beauty.eot');
+  src: url('../fonts/Beauty.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Beauty.svg#Beauty') format('svg'),
+       url('../fonts/Beauty.ttf') format('truetype'),
+       url('../fonts/Beauty.woff') format('woff'),
+       url('../fonts/Beauty.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Antonio-Bold';
+  src: url('../fonts/Antonio-Bold.eot');
+  src: url('../fonts/Antonio-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Antonio-Bold.svg#Antonio-Bold') format('svg'),
+       url('../fonts/Antonio-Bold.ttf') format('truetype'),
+       url('../fonts/Antonio-Bold.woff') format('woff'),
+       url('../fonts/Antonio-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

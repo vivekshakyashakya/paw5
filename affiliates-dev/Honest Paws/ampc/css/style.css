@@ -1,0 +1,209 @@
+
+/*
+Theme Name: CBD
+Author: 
+Version:1.0;
+*/
+
+
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Nunito Sans Black'), local('NunitoSans-Black'), url(https://fonts.gstatic.com/s/nunitosans/v5/pe03MImSLYBIv1o4X1M8cc8-BM5iU1ECVZl_86Y.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Nunito Sans Black'), local('NunitoSans-Black'), url(https://fonts.gstatic.com/s/nunitosans/v5/pe03MImSLYBIv1o4X1M8cc8-BM5jU1ECVZl_86Y.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Nunito Sans Black'), local('NunitoSans-Black'), url(https://fonts.gstatic.com/s/nunitosans/v5/pe03MImSLYBIv1o4X1M8cc8-BM5tU1ECVZl_.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face{font-family: 'Avenir';src:url(../fonts/AvenirNextLTPro-Bold.eot);src:url(../fonts/AvenirNextLTPro-Bold.woff) format('woff'),url(../fonts/AvenirNextLTPro-Bold.ttf) format('truetype'),url(../fonts/AvenirNextLTPro-Bold.svg) format('svg');font-weight:700;font-style:normal}
+@font-face{font-family:'AvenirNextLTPro-It';src:url(../fonts/AvenirNextLTPro-It.eot);src:url(../fonts/AvenirNextLTPro-It.woff) format('woff'),url(../fonts/AvenirNextLTPro-It.ttf) format('truetype'),url(../fonts/AvenirNextLTPro-It.svg) format('svg');font-weight:700;font-style: italic;}
+@font-face{font-family: 'Avenir';src:url(../fonts/AvenirNextLTPro-Regular.eot);src:url(../fonts/AvenirNextLTPro-Regular.woff) format('woff'),url(../fonts/AvenirNextLTPro-Regular.ttf) format('truetype'),url(../fonts/AvenirNextLTPro-Regular.svg) format('svg');font-weight:400;font-style:normal}
+@font-face {font-family: 'recoleta';src: url('../fonts/recoleta-bold.woff2') format('woff2'),url('../fonts/recoleta-bold.woff') format('woff');font-weight: 700;font-style: normal;}
+
+body {font-family: 'Avenir';font-size: 16px; line-height: 1.7; color:#54565a;font-weight: 400;margin: 0;}
+h1, h2, h3, h4, h5, h6 {font-weight:700; line-height:1.3; margin:0;font-family: 'Avenir';}
+
+a:link, a:visited {color:#000; text-decoration:none; outline:0;}
+a:focus, a:hover{color:#999; text-decoration:none;transition: 0.5s;}
+a:active {color:#000; text-decoration:none;}
+h1 img,h2 img,h3 img,h4 img,h5 img,h6 img {margin:0;} .fl {float:left;} .fr {float:right;} blockquote{margin:1.5em;color:#666;font-style:italic;} 
+strong, dfn, b {font-weight:bold;} em, dfn{font-style:italic;} sup,sub {line-height:0; font-size:.6em;} 
+sup {vertical-align:super} sub {vertical-align:sub;} abbr,acronym{border-bottom:1px dotted #666;} address{margin:0 0 1.5em;font-style:italic;} 
+del{color:#666;} pre{margin:1.5em 0;white-space:pre;} pre,code,tt {font:1em'andale mono','lucida console',monospace;line-height:1.5;}
+ul,ol{margin:0 0 1.5em 0; padding-left:1.5em;} li ul, li ol{margin:0;} ul{list-style-type:disc;} ol{list-style-type:decimal;}
+dl{margin:0 0 1.5em 0;} dl dt{font-weight:bold;} dd{margin-left:1.5em;}
+ul, ol, li {list-style: none;}
+table{margin-bottom:10px; width:100%;} th{font-weight:bold;} thead th{background:#c3d9ff;} th,td,caption{padding:4px 10px 4px 5px;} tfoot{font-style:italic;} caption{background:#eee;} tbody tr:nth-child(even) td,tbody tr.even td{} small{font-size:11px;}
+img {max-width:100%;height:auto}
+
+.main, .container {width:100%;margin: 0 auto;max-width: 767px;padding: 0 5px;box-sizing: border-box;padding: 0 25px}
+
+.topbar {background: #fff;text-align: center;padding: 12px 0}
+.topbar h2{font-size: 12px;text-transform: uppercase;color: #26315b;}
+.banner h3 {font-size: 18px;color: #fff;font-weight: 400;padding: 3px 0;}
+.banner h1 {font-size: 36px;color: #fff;font-weight: 700;line-height: 1.2;font-family: 'recoleta'}
+.banner h1 span {color: #00ce7c;}
+.banner .logo {max-width: 80px;margin: 0 auto;}
+.banner .main {width: 100%;padding: 0;}
+.banner {text-align: center;background: url(../images/banner-bg.png) no-repeat center center;padding: 15px 0 35px;position: relative;background-size: cover;}
+.banner li h4 {font-size: 13px;font-style: italic;color: #26315b;}
+.banner ul {padding-left: 40%}
+.banner li {background-image: url(../images/dog-foot-img.png), url(../images/li-bg.png);background-position: 33px 15px, top center;background-repeat: no-repeat, repeat-y;text-align: left;padding: 2px 10px 10px 70px;background-size: auto auto, 100% 100%;margin: 3px 0;}
+.banner li p {color: #54565a;font-family: 'Avenir';font-size: 8px;line-height: 1.3;margin: 0;}
+.effect {position: relative;margin-top: 40px;}
+.banner-form {max-width: 310px;margin: -35px auto 0;text-align: left;}
+.banner-left {position: absolute;top: 50%;transform: translate(-60%, -50%);max-width: 450px;left: 40%;margin-top: -10px;}
+.banner-right-inner {width: 100%;background: #fff;border-radius: 50px 0 0 0;overflow: hidden;}
+.arrow-img-outer {margin-top: -55px;}
+.banner-right-inner h2 {text-align: center;font-size: 18px;background: #00205c;color: #fff;line-height: 30px;padding: 12px 10px 22px;line-height: 1.3;position: relative;z-index: 1}
+.banner-right-inner h2::after {z-index: -1;content: "";display: block;background: url(../images/form.png) no-repeat;background-size: auto;left: 50%;bottom: -11px;width: 75px;height: 12px;position: absolute;background-size: 75px;margin-left: -40px;}
+.banner-right-inner form {padding: 15px 25px 10px;}
+.banner-form .banner-btn {display: block;width: 100%;margin-top: 12px;font-size: 16px;font-weight: 700;background: #00ce7c;color: #fff;padding: 10px 30px;text-align: center;border-radius: 5px;border: 1px solid #00ce7c;cursor: pointer;transition: all 600ms;}
+.banner-form .banner-btn:hover {background-color: #00205c;border-color: #00205c;}
+.banner-form .banner-btn {background: #00ce7c url(../images/hand-pic.png) no-repeat 80%;background-size: 30px;}
+.banner-right-inner .payment p {font-weight: 700;text-align: center;font-size: 12px;color: #54565a}
+.banner-right-inner .payment ul {padding: 0;text-align: center;margin-bottom: 5px;}
+.banner-right-inner .payment li {background: none;display: inline-block;padding: 0 10px}
+.banner-right-inner .payment li a img {}
+.banner-right-inner h3 {font-size: 16px;color: #54565a;padding: 10px 0 5px;font-weight: 400}
+.banner-right-inner h4 {font-size: 12px;color: #54565a;padding: 15px 0 5px;font-weight: 400}
+.banner-dog-inner h4 {font-size: 9px;color: #54565a;font-weight: 700;}
+.banner-field {font-size: 11px;color: #54565a;font-family: 'Avenir';padding: 10px 17px;margin: 10px 0;border: none;box-shadow: 0 7px 10px #d4d4d4;border-radius: 5px;width: 260px;display: block;font-weight: 700;box-sizing: border-box;}
+
+.container-box {position: relative;padding: 4px 0;cursor: pointer;font-size: 22px;-webkit-user-select: none;border-bottom: 1px solid #e9eaee;-moz-user-select: none;-ms-user-select: none;user-select: none;display: flex;align-items: center;}
+.container-box:last-child{border:none;}
+.checkmark {position: absolute;top: 8px;right: 0;height: 26px;width: 26px;background-color: #fff;border-radius: 50%;border: 2px solid #9298ad;}
+.dog01{display:none;}
+.container-box input:checked ~ img.dog01{display:block;}
+.container-box input:checked ~ h5{color:#00205c;font-size: 11px;font-weight: 400;}
+.container-box h5 {color: #54565a;font-size: 11px;font-weight: 400;margin-left: 25px;}
+.banner-dog-inner {position: relative;box-shadow: 0 7px 10px #d4d4d4;padding: 0px 20px;border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;width: 260px;box-sizing: border-box;}
+.banner-dog-inner::after {content: "";display: block;background: url(../images/down-arrow.png) no-repeat;right: 12px;top: 20px;width: 8px;height: 6px;position: absolute;background-size: 8px;}
+.container-box input:checked ~ .checkmark:after {display: block;}
+.dog-outer {float: left;width: 33%;text-align: left;}
+.dog-outer img {max-width: 30px}
+.container-box .checkmark::after {top: 3px;left: 3px;width: 20px;height: 20px;border-radius: 50%;background: #00205c;}
+.container-box:hover input ~ .checkmark {background-color: #ccc;}
+.container-box input:checked ~ .checkmark {background-color: #fff;}
+.checkmark:after {content: "";position: absolute;display: none;}
+.container-box input {position: absolute;opacity: 0;cursor: pointer;}
+
+.as-seen-outer {text-align: center;background: #3396bf}
+.as-seen-outer h2 {background: url(../images/title-bg.png) no-repeat top center;background-size: auto;background-size: 100% 100%;color: #fff;display: inline-block;font-size: 12px;padding: 6px 50px 5px;text-transform: uppercase;margin: 0 0 -14px 0;font-weight: 700;position: relative;}
+.sponser-outer {text-align: center;background: #f7fcfe;}
+
+.pro-text h2 {font-size: 36px;color: #00205c;line-height: 1.4;}
+.forbes-logos {width: 100%;margin: 20px 0;}
+.pet-medicine-inner .forbes-logos{padding-bottom: 10px;}
+a.cbd-btn {font-size: 18px;background: #00ce7c url(../images/dog-img.png) no-repeat 35px;color: #fff;text-decoration: none;padding: 10px 46px 8px 80px;border-radius: 5px;font-weight: 700;border: 1px solid #00ce7c;margin-top: 15px;display: inline-block;}
+a.cbd-btn:hover {background-color: #000;border-color: #000;}
+.pro-text h2 span {color: #00ce7c;}
+.pro-text h2 strong {color: #54565a;font-size: 24px;font-family: 'Nunito Sans', sans-serif;font-weight: 900;}
+.pro-text p {color: #54565a;margin: 30px 0 0;line-height: 30px;}
+.product {padding: 25px 0 35px;}
+.forbes {margin-top: 60px;text-align: center;}
+.forbes img {max-width: 300px;}
+
+.medicine {background: #00205c;color: #fff;padding: 40px 0 55px;}
+.pet-medicine-inner h2 {color: #Fff;font-size: 36px;padding-bottom: 20px;}
+.pet-medicine-inner h2 span {color: #00ce7c;}
+.pet-medicine-inner a.cbd-btn {margin-top: 40px;}
+
+.key-facts-wrap {padding: 50px 0 25px;text-align: center;background: #f6f7f8;}
+.key-facts-upper h2 {color: #00205b;font-size: 36px;padding-bottom: 15px;}
+.key-facts-upper h2 span {color: #00ce7c;}
+.key-facts-img {margin: 40px 0 20px;}
+
+.physical-benefits {text-align: left;}
+.physic-box {padding-bottom: 20px;}
+.physic-box img {text-align: left;}
+.physic-box p strong {color: #00205b;font-size: 18px;font-weight: 700;}
+
+
+.moneyback-guarantee-outer {background: url(../images/money-bg.png) no-repeat center center;padding: 50px 0 20px;color: #fff;background-size: cover;}
+.moneyback-guarantee-inner p {color: #fff;font-size: 18px;font-style: italic;background: url(../images/globe-img.png) no-repeat top left;margin: 25px 0;padding: 15px 0 20px 70px;font-weight: 700;text-transform: uppercase}
+.moneyback-guarantee-inner h2 {color: #fff;font-family: 'Nunito', sans-serif;font-size: 36px;font-weight: 900;}
+.guarantee {margin: 40px auto 0;}
+
+
+.result-box h3 {font-size: 36px;color: #00205b;font-weight: 700;font-family: 'recoleta';padding-bottom: 25px;}
+.result-box {padding: 30px;box-sizing: border-box;border-radius: 10px;transition: all 600ms;max-width: 320px;margin: 0 auto}
+.result-box h4 {font-size: 20px;color: #00205b;margin: 30px 0 0;}
+.result-box:hover{background:#fff;}
+.result-box p {color: #54565a;font-size: 18px;margin: 15px 0 0;}
+.get-result-outer {text-align: center;background: #fff9ed;padding: 45px 0 70px;}
+.get-result-outer h2 {color: #00205b;font-size: 36px;margin: 0 0 70px;}
+.get-result-outer h2 span {color: #00ce7c;}
+
+
+.dog-owners-outer {padding: 50px 0 100px;text-align: center;}
+.dog-owners-inner h2 span {color: #00ce7c;}
+.dog-owners-inner h2 {color: #00205b;font-size: 36px;margin: 0 0 45px;text-align: center;}
+.dog-owners img {max-width: 320px}
+.dog-owners {margin: 40px 0;}
+
+.customer-rating {border-radius: 20px;display: inline-block;background: #00205b;width: 240px;padding: 10px;box-sizing: border-box;text-align: center;}
+.customer-rating h3 {color: #fff;font-size: 13px;font-weight: 700;margin: 5px 0;}
+.customer-rating img {max-width: 195px}
+
+.customer-review h2 {font-size: 30px;color: #00205b;font-weight: 700;font-family: 'recoleta';margin-bottom: 0;text-align: left;}
+.dog-owners-inner p {font-size: 24px;font-style: italic;padding: 10px 0 0;line-height: 1.6;text-align: left;}
+.slide-admin {border-top: 1px solid #e5e8ee;padding: 30px 0 0;margin-top: 10px;text-align: left;display: flex;align-items: center;}
+.slide-admin-img {width: 85px;display: inline-block;}
+.slide-admin-content {display: inline-block;}
+.slide-admin-content h3 {font-size: 16px;color: #00205b;}
+
+.guarantee-moneyback-outer {background: url(../images/money-bg2.png) no-repeat top center;background-size: auto;background-size: cover;text-align: center;padding: 50px 1px 500px;color: #fff}
+.guarantee-moneyback-outer h2 {color: #00ce7c;font-size: 36px;}
+.guarantee-moneyback-outer p {color: #fff;font-size: 18px;line-height: 30px;}
+.guarantee-moneyback-outer h2+p {padding-top: 40px;}
+.guarantee-moneyback-outer h3 {color: #fff;font-size: 20px;padding: 20px 0 25px}
+.guarantee-moneyback-outer {position: relative;}
+.money-guarantee {position: absolute;bottom: 0;left: 0;right: 0;}
+.money-guarantee img {max-width: 275px;}
+.guarantee-moneyback-outer h4 {font-size: 60px;color: #fff;padding-top: 35px;}
+.guarantee-moneyback-outer h4+h2 {line-height: 1;}
+.footer-honest{padding: 50px 0 0}
+.footer-honest p {font-size: 14px;color: #00205b;line-height: 20px;padding-top: 5px;}
+.footer-honest-right ul {padding: 20px 0}
+.footer-honest-right li {display: inline-block;}
+.footer-honest-right li a {font-size: 14px;color: #00205b;text-decoration: none;border-left: 2px solid #00205b;padding: 0 15px;font-weight: 700;}
+.footer-honest-right li:first-child a {padding-left: 0;border: none;}
+.copyright-outer {padding: 12px 10px;background: #0a0f19;float: left;text-align: center;width: 100%;}
+.footer-honest-right p {font-size: 14px;color: #00205b;margin: 15px 0 45px;}
+.copyright-outer {padding: 15px 0;background: #0a0f19;text-align: center;}
+.copyright-outer p {font-size: 12px;font-weight: 700;color: #fff;margin: 0;}
+.footer-honest-right {text-align: center;}
+.white-text{
+    color:#fff;
+    margin-top:10px;
+}
+@media (max-width:420px) {
+
+.banner ul {padding-left: 35%;}
+.moneyback-guarantee-inner p {padding: 0px 0 20px 70px;}
+.banner li {padding: 2px 10px 5px 40px;background-position: 10px 17px, top center;}
+.banner-left {transform: translate(-67%, -50%);left: 33%;max-width: 185px;margin-top: -20px;}
+.dog-owners img {max-width: 280px;}
+.forbes img {max-width: 280px;}
+.arrow-img-outer {margin-top: -70px;}
+
+}

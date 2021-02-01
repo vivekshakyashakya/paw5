@@ -1,0 +1,667 @@
+@media screen and (max-width:1700px)
+{
+.banner-left img {
+    width: 672px;
+	margin:0px -180px 0 0px;
+}.banner-center h2 {
+    font-size: 52px;
+}
+.banner-left {
+    padding: 90px 0 0;
+}
+
+}
+
+@media screen and (max-width:1500px)
+{
+
+.banner-center h2 {
+    font-size: 42px;
+}
+.banner-left img {
+    width: 592px;
+	margin:0px -170px 0 0px;	
+}
+.banner-right-inner h2 {
+    font-size: 22px;
+    line-height:27px;
+    padding: 18px 10px;
+}
+
+.banner-right-inner form {
+    padding: 40px 30px 23px;
+}
+.banner-right-inner li {
+    margin: 20px 10px;
+}
+
+.banner-left {
+    padding: 110px 0 0;
+}
+
+input.banner-btn {
+    background: #00ce7c url(../images/hand-pic.png) no-repeat 83%;
+}
+
+section.pricing-main-outer::after
+{
+	width:250px;
+}
+
+section.pricing-main-outer::before
+{
+	top:60px;
+	width:220px;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width:1300px)
+{.banner-center h2 {
+    font-size: 36px;
+}
+
+.banner-center li h4 {
+    font-size: 22px;
+}.banner-left img {
+    width: 398px;
+    margin: 140px -112px 0 0px;
+}
+.auto-container {
+    width: 100%;
+    padding: 0 15px;
+}
+
+.forbes-left h2 {
+    font-size: 42px;
+    line-height: 55px;
+}
+.pet-medicine-inner h2 {
+    font-size: 42px;
+}
+.key-facts-upper p {
+    padding: 30px 12% 0;
+}
+.pricing-product-outer li {
+    margin: 0 48px 0 0px;
+}
+
+
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width:1200px)
+{
+.banner-left img {
+    width: 464px;
+    margin: 90px -127px 0 -20px;
+}.banner-center h3 {
+    font-size: 17px;
+    margin: 10px 0;
+}
+.banner-center h2 {
+    font-size: 32px;
+}
+.banner-center li h4 {
+    font-size: 18px;
+}
+
+.banner-right-inner h3 {
+    font-size: 14px;
+    margin: 5px 0;
+}
+.banner-right-inner li img {
+    width: 80px;
+}.banner-right-inner li {
+    margin: 20px 5px;
+}.forbes-left h2 {
+    font-size: 32px;
+    line-height: 45px;
+}
+.pet-medicine-inner h2 {
+    font-size: 32px;
+}
+.key-facts-upper h2 {
+    font-size: 38px;
+}
+.physical-benefits li {
+    width: 240px;
+}.moneyback-guarantee-inner h2 {
+    font-size: 30px;
+}
+.moneyback-guarantee-inner p {
+    font-size: 16px;
+    padding: 17px 0 18px 70px;
+}
+.get-result-outer h2 {
+    font-size: 38px;
+    margin: 0 0 50px;
+}
+.dog-owners-inner h2 {
+    font-size: 38px;
+}
+.dog-owners-left {
+    padding: 100px 0 0 0px;
+}
+
+.footer-honest-left p {
+    padding: 20px 20px 0 0px;
+}
+
+
+.footer-honest-left {
+    float: left;
+    width: 40%;
+    padding: 50px 0 40px;
+}
+.footer-honest-right {
+    width: 60%;
+}
+input.banner-btn {
+    background: #00ce7c url(../images/hand-pic.png) no-repeat 89%;
+    font-size: 20px;
+}
+
+    section.pricing-main-outer::before {
+    top: 20px;
+    width: 200px;
+}
+section.pricing-main-outer::after {
+    width: 220px;
+    top: 40px;
+}
+.pricing-logo h2 {
+    font-size: 40px;
+    margin: 10px 0 30px;
+}
+.pricing-product-outer li {
+    margin: 0px 39px 0 0px;
+}
+
+.pricing-product-outer li h3 {
+    font-size: 20px;
+    margin: 20px 0 40px;
+}
+.owl-pricing-outer .dog-owners-left-inner {
+    padding: 30px;
+}
+
+
+
+.dog-owners-left .owl-nav {
+    top: 73%;
+}
+}
+@media screen and (max-width:991px)
+{
+.banner-left {
+    display: none;
+}
+.banner-center {
+    width: 50%;
+}
+
+.banner-right {
+    width: 50%;
+}
+
+.banner-outer {
+    padding: 30px 15px ;
+}
+.sponser-outer li {
+    padding: 0 10px;
+}
+.forbes-left h2 {
+    font-size: 28px;
+    line-height: 40px;
+}.pet-medicine-inner h2 {
+    font-size: 28px;
+}
+
+.pet-medicine-outer {
+    padding: 50px 0;
+}
+
+
+section.key-facts-outer {
+    padding: 50px 0 0;
+}
+.key-facts-img img {
+    width: 340px;
+}
+.physical-benefits {
+    padding: 20px 0 0;
+}
+.physical-benefits li {
+    width: 200px;
+    padding: 0 0 50px;
+}
+.physical-benefits li:nth-child(3) {
+    width: 380px;
+    padding: 0 120px 0 0;
+}
+.moneyback-guarantee-outer {
+    padding: 50px 0;
+}
+
+.moneyback-guarantee-inner h2 {
+    font-size: 24px;
+}
+.get-result-outer {
+    padding: 50px 0;
+}
+.get-result-outer li img {
+    height: 186px;
+}
+
+.get-result-outer li h3 {
+    font-size: 40px;
+}
+.get-result-outer a {
+    margin: 20px 0 0;
+}
+.dog-owners-inner h2 {
+    font-size: 34px;
+}
+
+.dog-owners-left-inner p {
+    font-size: 20px;
+}
+.dog-owners-left-inner h2 {
+    font-size: 26px;
+}
+.guarantee-moneyback-outer h4 {
+    font-size: 52px;
+}.guarantee-moneyback-outer p {
+    font-size: 18px;
+}
+.footer-honest-right li a {
+    padding: 0 5px;
+}
+.dog-owners-left {
+    padding: 0px;
+}
+section.dog-owners-outer {
+    padding: 50px 0 60px;
+}
+
+
+section.pricing-main-outer::after {
+    width: 170px;
+    top: 40px;
+}
+section.pricing-main-outer::before {
+    top: 20px;
+    width: 170px;
+}
+.pricing-logo h2 {
+    font-size: 35px;
+}
+.pricing-logo p {
+    font-size: 20px;
+    padding: 0 70px 40px;
+}
+
+.pricing-product-outer li h5 {
+    font-size: 15px;
+    background-size: 100% 100%;
+}
+.pricing-product-outer li h2 {
+    font-size: 22px;
+}
+
+.pricing-product-outer li h3 {
+    font-size: 18px;
+    padding: 10px 20px;
+}
+.pricing-product-outer li {
+    margin: 0px 15px 0 0px;
+    width: 31.9%;
+}.pricing-product-outer li:last-child h5 {
+    padding: 14px 45px;
+    background-size: 100% 100%;
+}
+.pricing-product-outer li h4 {
+    font-size: 20px;
+}
+.pricing-product-outer li a {
+    font-size: 16px;
+    background: #00ce7c url(../images/dog-img.png) no-repeat 18px;
+    padding: 12px 30px 12px 60px;
+}
+.pricing-product-outer li p {
+    font-size: 16px;
+}
+
+
+.owl-pricing-outer .owl-nav {
+    width: 100%;
+}
+
+.dog-owners-left-inner {
+    padding: 70px 30px 0 0;
+}
+.dog-owners-left .owl-nav {
+    top: 65%;
+    right: 90px;
+}
+
+
+
+}
+
+@media screen and (max-width:767px)
+{.banner-center {
+    width: 100%;
+}
+.banner-right {
+    width: 100%;
+}
+section.forbes-outer {
+    padding: 60px 0;
+}
+.forbes-left {	
+    width: 100%;
+}
+.forbes-right {
+    width: 100%;
+    padding: 50px 0 0 0;
+}
+
+.pet-medicine-outer {
+    background: #00205c;
+}
+
+.pet-medicine-inner {
+    width: 100%;
+}
+.key-facts-upper p {
+    padding: 20px 0 0;
+}
+.key-facts-upper h2 {
+    font-size: 32px;
+}.key-facts-img {
+    position: inherit;
+}
+.key-facts-img img {
+    width: auto;
+}
+.physical-benefits li {
+    width: 100%;
+	padding:0 0 30px;
+}.physical-benefits li:nth-child(3) {
+    width: 100%;
+    padding: 0 0 30px;
+}
+.moneyback-guarantee-inner {
+    float: right;
+    width: 100%;
+}
+.moneyback-guarantee-outer {
+    background: #00205c;
+}.get-result-outer h2 {
+    font-size: 32px;
+    margin: 0 0 40px;
+}
+.get-result-outer li {
+    width: 100%;
+}
+.get-result-outer li img {
+    height: 216px;
+}.dog-owners-inner h2 {
+    font-size: 29px;
+}
+
+.dog-owners-left {
+    padding: 0 0 0 0px;
+    width: 100%;
+}
+.dog-owners-inner {
+    margin: 0px 0 40px;
+}
+.dog-owners-right {
+    width: 100%;
+    text-align: center;
+    padding: 40px 0 0;
+}
+.guarantee-moneyback-outer p br
+{
+	display:none;
+}.guarantee-moneyback-outer p {
+	padding: 20px 0;
+}
+
+.footer-honest-left {
+    width: 100%;
+    padding: 40px 0 0px;
+}
+.footer-honest-right {
+    width: 100%;
+    text-align: left;
+    padding: 20px 0 40px;
+}
+.sponser-outer li {
+    width: 32%;
+    min-height: 70px;
+    float: none;
+    display: inline-block;
+}
+.sponser-outer {
+    padding: 50px 0 0;
+}
+
+section.pricing-main-outer::after {
+    width: 150px;
+}
+section.pricing-main-outer::before {
+    width: 140px;
+}
+
+.pricing-logo h2 {
+    font-size: 32px;
+}.pricing-rating-inner h2 {
+    font-size: 26px;
+    margin: 0px 0 30px;
+}
+.pricing-product-outer li {
+    margin: 10px 0;
+    width: 100%;
+}
+.pricing-product-outer li:nth-child(2) {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+
+
+.pricing-product-outer {
+    padding: 30px 0 50px;
+}
+
+.dog-owners-left-inner {
+    padding: 80px 20px 0 0;
+}
+
+.dog-owners-left-inner {
+    padding: 30px 0px 0 0;
+    width: 100%;
+}
+.dog-owners-left .owl-nav {
+    top: 96%;
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width:639px)
+{
+	.guarantee-moneyback-outer h4 {
+    font-size: 44px;
+}.guarantee-moneyback-outer h2 {
+    font-size: 26px;
+}.guarantee-moneyback-outer {
+    padding: 50px 0px 50px;
+}
+section.pricing-main-outer::after
+{
+	display:none;
+}
+section.pricing-main-outer::before
+{
+	display:none;
+}
+.pricing-logo img {
+    width: 110px;
+}.pricing-logo h2 {
+    font-size: 28px;
+}.pricing-logo p {
+    font-size: 20px;
+    padding: 0 0 20px;
+}
+.pricing-rating-inner h2 {
+    font-size: 22px;
+}
+
+.owl-pricing-outer .owl-nav button.owl-prev {
+    background-size: 100% 100% !important;
+}
+
+.owl-pricing-outer .owl-nav button.owl-next {
+    background-size: 100% 100% !important;
+}
+
+
+html body .owl-pricing-outer .owl-nav button {
+    width: 30px;
+    height: 8px;
+}
+.owl-pricing-outer .dog-owners-left-inner
+{
+	width:80%;
+}
+section.pricing-main-outer {
+    padding: 30px 0 50px;
+}
+
+}
+@media screen and (max-width:476px)
+{
+	.top-header h2 {
+    font-size: 14px;
+}
+.banner-center h2 {
+    font-size: 26px;
+}
+.banner-center h3 {
+    font-size: 16px;
+}
+.banner-right-inner h2 {
+    font-size: 17px;
+    line-height: 25px;	
+}
+.banner-right-inner form {
+    padding: 30px 15px 23px;
+}.sponser-outer li {
+    width: 49%;
+}
+.forbes-left h2 {
+    font-size: 22px;
+    line-height: 30px;
+}
+.forbes-left h2 strong {
+    font-size: 22px;
+}
+forbes-left p {
+    font-size: 16px;
+    margin: 10px 0 0;
+    line-height: 25px;
+}
+.forbes-logos {
+    margin: 20px 0 30px;
+}
+section.forbes-outer {
+    padding: 40px 0 30px;
+}
+.pet-medicine-inner h2 {
+    font-size: 22px;
+}
+.pet-medicine-inner p{
+    line-height: 25px;
+    font-size: 16px;
+    margin: 13px 0 25px;
+}
+
+.key-facts-upper h2 {
+    font-size: 28px;
+}section.key-facts-outer {
+    padding: 35px 0 0;
+}
+.key-facts-inner {
+    margin: 30px 0 0;
+}
+.get-result-outer h2 {
+    font-size: 28px;
+    margin: 0 0 20px;
+}
+
+
+.dog-owners-inner h2 {
+    font-size: 26px;
+}.dog-owners-inner h2 br {
+	display:none;
+}
+
+.dog-owners-left .owl-nav {
+    bottom: -10px;
+}
+.copyright-outer p {
+    font-size: 14px;
+}
+
+.pricing-product-outer
+{
+	padding:30px 0;
+}
+
+
+.owl-pricing-outer .dog-owners-left-inner {
+    width: 100%;
+}
+
+.owl-pricing-outer .owl-nav
+{
+	display:none;
+}
+
+
+
+
+
+
+}

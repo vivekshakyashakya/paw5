@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="date=no">
+    <meta name="format-detection" content="address=no">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bbc798797e.js"></script>
+    <title>Paw5</title>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MK3N95X');</script>
+    <!-- End Google Tag Manager -->
+  </head>
+  <body class="paw5">
+    <!---------Header starts------->
+    <header id="home" class="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader" style="min-height: 101px; background-color: #F1994C">
+      <div id="main-nav" class="navbar navbar-inverse bs-docs-nav fixed" role="banner" style="min-height: 101px;">
+        <div class="container">
+          <div class="navbar-header responsive-logo">
+            <div class="navbar-brand">
+              <a href="http://paw5.com/" class="custom-logo-link" rel="home"><img height="78" src="images/Paw5-white.png" class="custom-logo" alt="Paw5"></a>
+            </div> <!-- /.navbar-brand -->
+          </div> <!-- /.navbar-header -->
+        </div> <!-- /.container -->
+      </div> <!-- /#main-nav -->
+      <!-- / END TOP BAR -->
+    </header>
+    <!---------Header ends------->
+    <div class="container container-thankyou" >
+      <div class="row justify-content-lg-center">
+        <div class="col-xl-6 col-lg-8 text-center pt-4 pb-4">
+          <h1 class="mb-4">Thank you!</h1>
+          <p class="mb-4">Your order was processed successfully! <br class="d-none d-sm-inline" />A confirmation email has been sent to <span class="email"></span></p>
+        </div>
+      </div>
+      <div class="row justify-content-lg-center mt-4 mb-4">
+        <div class="col-lg-8">
+          <div class="bg-white box-shadow mb-3">
+            <div class="border-bottom p-3">
+              <button class="float-right btn btn-dark dontprint" onclick="window.print()"><i class="fa fa-print"></i> Print Receipt</button>
+              <h2 class="m-0">Order #<span class="order_id"></span> <span class="upsell_ids"></span></h2>
+              <div class="clearfix"></div>
+            </div>
+            <div class="p-5">
+              <div class="row mb-5">
+                <div class="col-md">
+                  <h4>Shipping Address</h4>
+                  <p>
+                    <span class="shipping-name"></span> <span class="shipping-lastname"></span> <br/>
+                    <span class="shipping-address"></span> <span class="shipping-suite"></span><br/>
+                    <span class="shipping-city"></span>, <span class="shipping-state"></span>, <span class="shipping-zipcode"></span><br/>
+                    <span class="shipping-country"></span><br/>
+                    <span class="shipping-phone"></span>
+                  </p>
+                </div>
+                <div class="col-md">
+                  <h4>Billing Address</h4>
+                  <p>
+                    <span class="mailing-name"></span> <span class="mailing-lastname"></span> <br/>
+                    <span class="mailing-address"></span> <span class="mailing-suite"></span><br/>
+                    <span class="mailing-city"></span>, <span class="mailing-state"></span>, <span class="mailing-zipcode"></span><br/>
+                    <span class="mailing-country"></span><br/>
+                    <span class="mailing-phone"></span>
+                  </p>
+                </div>
+              </div>
+              <div class="pb-3 mb-3 border-bottom">
+                <div class="row no-gutters">
+                  <div class="col-auto mr-3">
+                    <img src="" class="border product-image">
+                  </div>
+                  <div class="col">
+                    <h4><span class="name"></span> #<span class="order_id"></h4>
+                    <p class="mb-1 type"></p>
+                    <p><span class="float-right">$<span class="subtotal"></span> USD</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="upsells-container"></div>
+              <div class="pb-3 mb-3 border-bottom">
+                <p class="mb-1">Subtotal <span class="float-right">$<span class="subtotal_total"></span> USD</span></p>
+                <!--p class="text-highlight mb-1">Discounts <span class="float-right">-$<span class="discounts"></span> USD</span></p-->
+                <p class="mb-1">Shipping <span class="float-right">$<span class="shipping"></span> USD</span></p>
+                <p class="mb-0">Taxes <span class="float-right">$<span class="taxes"></span> USD</span></p>
+              </div>
+              <p class="mb-0"><strong>Total <span class="float-right">$<span class="total"></span> USD</span></strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mb-5">
+        <a href="https://trk.honestpaws.com/?a=21&c=284&p=r&s1=Paw5_WSM-V1b_ThankYou" class="d-none d-xl-block"><img src="images/1110x170.gif" class="img-fluid"></a>
+        <a href="https://trk.honestpaws.com/?a=21&c=284&p=r&s1=Paw5_WSM-V1b_ThankYou" class="d-none d-md-block d-xl-none"><img src="images/700x170.gif" class="img-fluid"></a>
+        <a href="https://trk.honestpaws.com/?a=21&c=284&p=r&s1=Paw5_WSM-V1b_ThankYou" class="d-block d-md-none"><img src="images/550x170.gif" class="img-fluid"></a>
+      </div>
+    </div>
+    <div id="footer" class="border-top pt-3 pb-3 paw5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-auto">
+            <a href="http://paw5.com/" rel="home"><img width="212" src="images/Paw5-Orange.png" alt="Paw5"></a>
+          </div>
+          <div class="col-lg text-right">
+            <ul class="list-unstyled list-inline mb-0">
+              <li class="list-inline-item"><a href="https://paw5.com/policies/privacy-policy">Privacy Policy</a></li>
+              <li class="list-inline-item"><a href="https://paw5.com/pages/contact">Contact Us</a></li>
+              <li class="list-inline-item"><a href="https://paw5.com/pages/return-policy">Returns Policy</a></li>
+              <li class="list-inline-item"><a href="https://paw5.com/pages/about-us">About Us</a></li>
+            </ul>
+            <p class="m-0">&copy; 2021 Paw5, LLC. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MK3N95X"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="thankyou.js?v=1"></script>
+  </body>
+</html>
